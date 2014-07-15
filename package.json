@@ -1,0 +1,33 @@
+{
+  "name": "divx",
+  "version": "0.0.1",
+  "description": "divxplanet api beta",
+  "main": "./lib/index.js",
+  "dependencies": {
+    "bluebird": "^2.2.2",
+    "cheerio": "^0.17.0",
+    "iconv-lite": "^0.4.3",
+    "request": "^2.36.0",
+    "request-promise": "0.0.4"
+  },
+  "devDependencies": {
+    "mocha": "~1.17.1",
+    "expect.js": "~0.2.0"
+  },
+  "scripts": {
+    "test": "mocha test.js --reporter spec"
+  },
+  "keywords": [
+    "movie",
+    "subtitle"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:cobaimelan/divxplanet.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cobaimelan/divxplanet/issues"
+  },
+  "author": "Ayhan Kuru <ayhankuru@yandex.com.tr>",
+  "license": "ISC"
+}
