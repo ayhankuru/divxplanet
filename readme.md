@@ -17,7 +17,7 @@ var divx = require('divx');
 Example
 
 ```js
-divx('V For Vendetta').then(function (data) {
+divx('Fight Club').then(function (data) {
 	console.log(data);
 }).catch(function(err) {
 	console.log(err);
