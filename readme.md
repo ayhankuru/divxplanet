@@ -1,4 +1,6 @@
-divxplanet simple api
+[![Build Status](http://img.shields.io/travis/ayhankuru/divxplanet.svg?style=flat-square)](https://travis-ci.org/ayhankuru/divxplanet)
+
+Altyazı.org simple api
 
 ## Install
 
