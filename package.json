@@ -1,6 +1,6 @@
 {
   "name": "divx",
-  "version": "0.1.4444",
+  "version": "0.1.5",
   "description": "divxplanet api beta",
   "main": "./lib/index.js",
   "dependencies": {
