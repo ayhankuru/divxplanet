@@ -23,7 +23,6 @@ describe('Altyazı.org Testler ', function () {
 			divx('Gone Girl').then(function (data) {	
 					expect(data).to.be.an('object');
 					expect(data.director).to.eql("David Fincher");
-
 					expect(data.writers.length).to.eql(1);
 					expect(data.types.length).to.eql(3);
 					expect(data.comment[0].comment).to.eql("Casey Affleck'de abisi Ben Affleck gibi Gone Baby Gone isimli başka bir filmde bir kız çocuğunu arıyordu.");
